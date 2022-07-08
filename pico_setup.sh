@@ -14,8 +14,8 @@ JNUM=4
 OUTDIR="$HOME/pico"
 
 # Install dependencies
-GIT_DEPS="git"
-SDK_DEPS="cmake gcc-arm-none-eabi gcc g++ build-essentials libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib"
+GIT_DEPS="git python3"
+SDK_DEPS="cmake gcc-arm-none-eabi gcc g++ build-essential libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib"
 OPENOCD_DEPS="gdb-multiarch automake autoconf texinfo libtool libftdi-dev libusb-1.0-0-dev"
 VSCODE_DEPS="code"
 UART_DEPS="minicom"
